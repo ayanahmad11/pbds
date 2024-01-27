@@ -71,7 +71,7 @@ for (int i = 0; i < k; ++i)
 	A.insert({v[i],i});	
 }
 // debug(A);
-ans.pb((*A.find_by_order(k/2)).first);
+ans.pb((*A.find_by_order((k-1)/2)).first);
 // debug(ans);
 
 for(int i=1;i<=n-k;i++){ // O(n)
@@ -79,7 +79,7 @@ for(int i=1;i<=n-k;i++){ // O(n)
 	int j = i+k-1;		
 	A.insert({v[j],j}); // O(logk)
 	A.erase({v[i-1],i-1});// O(logk)
-	ans.pb((*A.find_by_order(k/2)).first); //O(log k)
+	ans.pb((*A.find_by_order((k-1)/2)).first); //O(log k)
 	
 }
 // therefore Time Complexity : O(nlogK)
