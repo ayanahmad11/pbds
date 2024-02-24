@@ -1,7 +1,7 @@
 // https://codeforces.com/contest/1932/problem/E
 #include<bits/stdc++.h>
 #define endl "\n"
-using namespace std;
+using namespace std; 
 #define int long long int 
 #define vi  vector<int>
 #define vp  vector<pair<int,int>>
