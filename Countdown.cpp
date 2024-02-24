@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 #define endl "\n"
 using namespace std;
-#define int long long int
+#define int long long int 
 #define vi  vector<int>
 #define vp  vector<pair<int,int>>
 #define pb  push_back
