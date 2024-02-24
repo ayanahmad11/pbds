@@ -1,3 +1,4 @@
+// https://codeforces.com/contest/1932/problem/C
 #include<bits/stdc++.h>
 #define endl "\n"
 using namespace std;
