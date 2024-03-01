@@ -1,4 +1,5 @@
 // https://codeforces.com/contest/1933/problem/C
+// l = k * a^x * b^y
 #include<bits/stdc++.h>
 #define endl "\n"
 using namespace std;
