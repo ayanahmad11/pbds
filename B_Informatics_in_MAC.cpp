@@ -5,6 +5,16 @@
 // div-2 [0 1 ]-  2 is the smallest no. that does not belong.
 // ans is 1  2  and 3  4
 
+
+// WHY while loop is used?
+	
+// [1 2 3 4 5 0]
+
+// while(cnt[x]){
+// 	x++;
+// }
+// pre[i]=x;
+
 #include<bits/stdc++.h>
 #define endl "\n"
 using namespace std;
